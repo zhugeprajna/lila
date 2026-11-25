@@ -6498,6 +6498,86 @@ interface I18n {
     /** Yearly %s Arena */
     yearlyXArena: I18nFormat;
   };
+  tournamentForm: {
+    /** Allow Berserk */
+    allowBerserk: string;
+    /** Let players halve their remaining time to earn an extra point if they win */
+    allowBerserkHelp: string;
+    /** Allow bot accounts */
+    allowBotAccounts: string;
+    /** Let <a href='%s' target='_blank'>bots</a> join the tournament and play using their engines.<br>Many human players prefer tournaments without bots. */
+    allowBotAccountsDescription: I18nFormat;
+    /** Let players discuss the tournament in its own chat room */
+    allowChatHelp: string;
+    /** Arena streaks */
+    arenaStreaks: string;
+    /** After 2 wins in a row, each further win is worth 4 points instead of 2 */
+    arenaStreaksHelp: string;
+    /** Chat room */
+    chatRoom: string;
+    /** Clock increment */
+    clockIncrement: string;
+    /** Clock initial time */
+    clockInitialTime: string;
+    /** Custom start date */
+    customStartDate: string;
+    /** In your own local timezone. This overrides the "Time before tournament starts" setting */
+    customStartDateHelp: string;
+    /** Leave empty to name the tournament after a notable chess player. */
+    emptyTournamentName: string;
+    /** Entry conditions */
+    entryConditions: string;
+    /** Features */
+    features: string;
+    /** Anything even slightly inappropriate could get your account closed. */
+    inappropriateNameWarning: string;
+    /** Make the tournament private, and restrict access with a password */
+    makePrivateTournament: string;
+    /** Maximum weekly rating */
+    maximumWeeklyRating: string;
+    /** Minimum account age */
+    minimumAccountAge: string;
+    /** Minimum rated games */
+    minimumRatedGames: string;
+    /** Minimum rating */
+    minimumRating: string;
+    /** New tournament */
+    newTournament: string;
+    /** Only members of team */
+    onlyMembersOfTeam: string;
+    /** Only titled players */
+    onlyTitled: string;
+    /** Require an official title to join the tournament */
+    onlyTitledHelp: string;
+    /** Our tips for organising events */
+    ourEventTips: string;
+    /** Paste a FEN record to start every game from a given position. */
+    positionInputHelp: string;
+    /** Only allow specific players to join */
+    predefinedUsers: string;
+    /** Enter one username per line. Only these players will be allowed to join. */
+    predefinedUsersHelp: string;
+    /** Rated */
+    rated: string;
+    /** Rated games count towards players' ratings */
+    ratedFormHelp: string;
+    /** Pick a very safe name for the tournament. */
+    safeTournamentName: string;
+    /** Start date */
+    startDate: string;
+    /** Starting position */
+    startPosition: string;
+    /** Time before tournament starts */
+    timeBeforeTournamentStarts: string;
+    /** Titled players bypass this restriction. */
+    titledPlayersBypassRestriction: string;
+    /** Tournament entry code */
+    tournamentEntryCode: string;
+    /** Tournament description */
+    tournDescription: string;
+    /** Anything special you want to tell the participants? Try to keep it short. You can add links using Markdown, for example [text](https://example.com) */
+    tournDescriptionHelp: string;
+  };
   ublog: {
     /** All */
     all: string;
