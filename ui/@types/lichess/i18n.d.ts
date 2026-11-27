@@ -6509,7 +6509,7 @@ interface I18n {
     allowBerserkHelp: string;
     /** Allow bot accounts */
     allowBotAccounts: string;
-    /** Let <a href='%s' target='_blank'>bots</a> join the tournament and play using their engines.<br>Many human players prefer tournaments without bots. */
+    /** Let <a href='%s' target='_blank'>bots</a> join the tournament and play using their engines. */
     allowBotAccountsDescription: I18nFormat;
     /** Let players discuss the tournament in its own chat room */
     allowChatHelp: string;
@@ -6527,14 +6527,12 @@ interface I18n {
     customStartDate: string;
     /** In your own local timezone. This overrides the "Time before tournament starts" setting */
     customStartDateHelp: string;
-    /** Leave empty to name the tournament after a notable chess player. */
+    /** Leave blank and the tournament will be named after a notable chess player. */
     emptyTournamentName: string;
     /** Entry conditions */
     entryConditions: string;
     /** Features */
     features: string;
-    /** Anything even slightly inappropriate could get your account closed. */
-    inappropriateNameWarning: string;
     /** Make the tournament private, and restrict access with a password */
     makePrivateTournament: string;
     /** Maximum weekly rating */
@@ -6565,7 +6563,7 @@ interface I18n {
     rated: string;
     /** Rated games count towards players' ratings */
     ratedFormHelp: string;
-    /** Pick a very safe name for the tournament. */
+    /** Pick a safe name for the tournament. */
     safeTournamentName: string;
     /** Start date */
     startDate: string;

@@ -3314,7 +3314,6 @@ object I18nKey:
     val `newTournament`: I18nKey = "tournamentForm:newTournament"
     val `ourEventTips`: I18nKey = "tournamentForm:ourEventTips"
     val `safeTournamentName`: I18nKey = "tournamentForm:safeTournamentName"
-    val `inappropriateNameWarning`: I18nKey = "tournamentForm:inappropriateNameWarning"
     val `emptyTournamentName`: I18nKey = "tournamentForm:emptyTournamentName"
     val `tournDescription`: I18nKey = "tournamentForm:tournDescription"
     val `tournDescriptionHelp`: I18nKey = "tournamentForm:tournDescriptionHelp"

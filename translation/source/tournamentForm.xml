@@ -3,9 +3,9 @@
   <string name="newTournament">New tournament</string>
   <string name="ourEventTips">Our tips for organising events</string>
 
-  <string name="safeTournamentName">Pick a very safe name for the tournament.</string>
-  <string name="inappropriateNameWarning">Anything even slightly inappropriate could get your account closed.</string>
-  <string name="emptyTournamentName">Leave empty to name the tournament after a notable chess player.</string>
+  <string name="safeTournamentName">Pick a safe name for the tournament.
+Anything even slightly inappropriate could get your account closed.</string>
+  <string name="emptyTournamentName">Leave blank and the tournament will be named after a notable chess player.</string>
   <string name="tournDescription">Tournament description</string>
   <string name="tournDescriptionHelp">Anything special you want to tell the participants? Try to keep it short. You can add links using Markdown, for example [text](https://example.com)</string>
 
@@ -13,9 +13,9 @@
   <string name="clockIncrement">Clock increment</string>
   <string name="startPosition">Starting position</string>
   <string name="positionInputHelp">Paste a FEN record to start every game from a given position.
-It works for standard games only, not for variants.
-You can use the &lt;a href='/editor' target='_blank'&gt;board editor&lt;/a&gt; to generate a position in FEN, then paste it here.
-Leave blank to start games from the normal initial position.</string>
+&lt;br&gt;It works for standard games only, not for variants.
+&lt;br&gt;You can use the &lt;a href='/editor' target='_blank'&gt;board editor&lt;/a&gt; to generate a position in FEN, then paste it here.
+&lt;br&gt;Leave blank to start games from the normal initial position.</string>
 
   <string name="startDate">Start date</string>
   <string name="timeBeforeTournamentStarts">Time before tournament starts</string>
@@ -37,7 +37,8 @@ Leave blank to allow all eligible players.</string>
   <string name="onlyTitled">Only titled players</string>
   <string name="onlyTitledHelp">Require an official title to join the tournament</string>
   <string name="allowBotAccounts">Allow bot accounts</string>
-  <string name="allowBotAccountsDescription">Let &lt;a href='%s' target='_blank'&gt;bots&lt;/a&gt; join the tournament and play using their engines.&lt;br&gt;Many human players prefer tournaments without bots.</string>
+  <string name="allowBotAccountsDescription">Let &lt;a href='%s' target='_blank'&gt;bots&lt;/a&gt; join the tournament and play using their engines.
+  &lt;br&gt;Many human players prefer tournaments without bots.</string>
 
   <string name="features">Features</string>
   <string name="allowBerserk">Allow Berserk</string>
