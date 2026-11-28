@@ -324,7 +324,7 @@ final class TournamentApi(
         .find(tour.id, me)
         .flatMap: prevPlayer =>
           if me.marks.arenaBan then fuccess(JoinResult.ArenaBanned)
-          else if me.marks.prizeban && tour.prizeInDescription then fuccess(JoinResult.PrizeBanned)
+          else if me.marks.prizeban && tour.hasPrize then fuccess(JoinResult.PrizeBanned)
           else if prevPlayer.isEmpty && !initialJoin.hit(
               me.userId,
               cost = if asLeader || tour.createdBy.is(me) then 0 else if tour.byLichess then 1 else 2

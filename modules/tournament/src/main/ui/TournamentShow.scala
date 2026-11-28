@@ -180,7 +180,7 @@ final class TournamentShow(helpers: Helpers, gathering: GatheringUi)(
               })
           ),
           gathering.verdicts(verdicts, tour.perfType, tour.isEnterable),
-          tour.looksLikePrize.option(gathering.userPrizeDisclaimer(tour.createdBy)),
+          tour.nonOfficialPrize.option(gathering.userPrizeDisclaimer(tour.createdBy)),
           List(shieldOwner, tour.description, tour.payouts)
             .exists(_.isDefined)
             .option(button(cls := "disclosure"))
